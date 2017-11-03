@@ -36,6 +36,7 @@
     <project
         name="xdmod-supremm"
         groups="supremm"
+        revision="xdmod7.1"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
