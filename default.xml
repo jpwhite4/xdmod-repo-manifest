@@ -3,11 +3,11 @@
     <remote
         name="ubccr"
         alias="upstream"
-        fetch="ssh://git@github.com/ubccr"
+        fetch="ssh://git@github.com/jpwhite4"
     />
     <default
         remote="ubccr"
-        revision="xdmod7.1"
+        revision="supremmschema"
     />
 
     <!--
@@ -29,6 +29,7 @@
     <project
         name="xdmod-appkernels"
         groups="appkernels"
+        revision="xdmod7.1"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
     </project>
